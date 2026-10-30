@@ -13,13 +13,7 @@ The interface is structured into **4 Core Sections**, each containing dedicated 
 
 ## The 4 Main Menu Sections
 
-```mermaid
-graph LR
-    Nav["Mansion Navigation"] --> Dash["1. Dashboard"]
-    Nav --> Ops["2. Site Operations"]
-    Nav --> Fin["3. Financials"]
-    Nav --> Work["4. Workforce & Masters"]
-```
+![Mansion Desktop Navigation](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/01_executive_dashboard.png)
 
 ### 1. Dashboard (The High-Altitude Overview)
 - **What it is**: The cockpit for portfolio health.
@@ -63,6 +57,9 @@ On wider screens, the top navigation bar displays the 4 main sections. Selecting
 When opening Mansion on a smartphone at the job site:
 - A persistent **Bottom Navigation Dock** provides one-thumb switching between the 4 sections.
 - All touch buttons are sized to at least **44x44 pixels**, making them easy to tap even when wearing work gloves on site.
+
+![Mobile Navigation Dock](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/06_mobile_experience.png)
+
 - See the full [Mobile Experience Guide](../user-guide/mobile-experience.md) for field tips.
 
 ---

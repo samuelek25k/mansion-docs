@@ -51,21 +51,14 @@ The table provides clear, at-a-glance visibility into all requested modification
 
 ## The Change Order Workflow (Step-by-Step)
 
-```mermaid
-sequenceDiagram
-    autonumber
-    actor Client
-    actor Manager as Site Manager
-    actor Admin as Company Admin
-    
-    Client->>Manager: Requests extra work on site
-    Manager->>Manager: Calculates extra cost & calendar delay
-    Manager->>Mansion: Submits Change Order in Mansion (Status: PENDING)
-    Admin->>Client: Presents formal variation slip for sign-off
-    Client->>Admin: Signs approval
-    Admin->>Mansion: Clicks "Approve Change Order"
-    Mansion->>Mansion: Automatically increases Project Budget & extends End Date
-```
+![Change Order Register Workflow](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/02_change_orders.png)
+
+| Phase | Actor | Action | What Happens Next |
+| :---: | :--- | :--- | :--- |
+| **1** | **Client** | Requests scope change or addition on site | Site Manager calculates cost impact & schedule delay. |
+| **2** | **Site Manager** | Submits Change Order in Mansion (Status: `PENDING`) | Formal variation slip prepared for sign-off. |
+| **3** | **Company Admin & Client** | Review and sign off variation agreement | Mutual written agreement is confirmed. |
+| **4** | **System Automation** | Admin clicks **Approve Change Order** | Mansion automatically increases Project Budget & extends End Date. |
 
 1. **Submit Request**: The Site Manager opens **Site Operations → Change Orders**, clicks **+ Request Change Order**, and enters the requested work, extra cost, and days required.
 2. **Review & Sign-off**: The Administrator and Client review the impact.

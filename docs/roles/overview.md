@@ -13,13 +13,15 @@ Mansion uses a **Role-Based Access Control (RBAC)** governance engine. Every tea
 
 ## The 5 Organizational Roles Explained for Laymen
 
-```mermaid
-graph TD
-    Admin["👑 Administrator<br/>(Company Owner / Director)"] --> Mgr["👷 Manager<br/>(Site Engineer / Foreman)"]
-    Admin --> Acct["💼 Accountant<br/>(Finance Officer)"]
-    Admin --> Audit["🔍 Auditor<br/>(Compliance / Inspector)"]
-    Admin --> View["👁️ Viewer<br/>(Client / Stakeholder)"]
-```
+![Role-Based Access Governance](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/08_tenant_regional_settings.png)
+
+Mansion configures permissions according to five distinct responsibilities:
+
+- **👑 Administrator (Owner / Director)**: Master controls, company tax setup, team management, and final change order approvals.
+- **👷 Manager (Site Superintendent / Engineer)**: Field operations, daily diaries, headcount muster, and change order requests.
+- **💼 Accountant (Commercial Officer)**: Milestone invoicing, contractor claims (IPC) certification, and retainage escrow tracking.
+- **🔍 Auditor (Compliance Inspector)**: Transparent, complete read-only visibility into transaction and audit logs.
+- **👁️ Viewer (Client / Investor)**: High-level milestone delivery schedules and project completion tracking without internal cost margins.
 
 ### 1. 👑 Administrator (Owner / Managing Director)
 - **Who they are**: Company owners, managing partners, or general operations directors.

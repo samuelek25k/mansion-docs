@@ -62,13 +62,14 @@ Mansion separates external agreements into two distinct categories:
 
 Instead of subcontractors sending informal invoices, Mansion standardizes payments using **Interim Payment Certificates (IPC)**:
 
-```mermaid
-graph LR
-    Sub["Subcontractor finishes phase"] --> Submit["Site Engineer submits +IPC Claim"]
-    Submit --> Verify["Quantity verification on site"]
-    Verify --> Retain["Mansion automatically withholds 5-10% Retention"]
-    Retain --> Certify["Accountant/Admin certifies payment voucher"]
-```
+![IPC Claim and Retention Lifecycle](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/07_contracts_subleasing.png)
+
+| Step | Milestone Action | What Happens in Mansion |
+| :---: | :--- | :--- |
+| **1. Deliver** | Subcontractor completes trade phase | Work is inspected by the Site Engineer on the job site. |
+| **2. Submit** | Engineer clicks **+ IPC Claim** | Enters verified quantity completed (e.g. 200m piping). |
+| **3. Retain** | Automated Retainage Calculation | Mansion automatically deducts statutory 5%–10% retention into escrow. |
+| **4. Certify** | Commercial Finance / Admin Approval | Accountant certifies net payable amount and issues payment certificate. |
 
 1. **Submit Claim**: Click **+ IPC Claim** next to any active contract.
 2. **Record Work Completed**: Enter the milestone percentage achieved or volume installed (e.g., 200 meters of piping).
