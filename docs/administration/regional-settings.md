@@ -10,7 +10,7 @@ Construction is hyper-local. A general contractor building in Dubai operates und
 Instead of requiring expensive custom programming, Mansion includes a **zero-code Multi-Regional Engine**. Selecting your country preset automatically updates tax calculations, retainage percentages, currency symbols, and material measurement units across your whole workspace.
 
 :::info Who Can Use This
-**Administrators Only**. Regional settings are configured from the Tenant Admin Console.
+**Administrators Only**. Regional settings are configured from Company Settings.
 :::
 
 ---
@@ -63,7 +63,7 @@ Instead of requiring expensive custom programming, Mansion includes a **zero-cod
 
 ## How to Select Your Region
 
-1. Click your **Initials Badge** (top right) → **Super Admin: Tenant Console**.
+1. Click your **Initials Badge** (top right) → **Company Settings**.
 2. Select the **🌍 Regional Tax & Compliance** tab.
 3. In the **Jurisdiction Preset** dropdown, select your operating country.
 4. Enter your official tax ID (GSTIN, TRN, EIN, or VAT number).

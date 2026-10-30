@@ -15,7 +15,7 @@ As the company **Administrator**, you have the master keys to Mansion. You confi
 
 ## Visual Overview
 
-![Regional Compliance and Tenant Settings](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/08_tenant_regional_settings.png)
+![Regional Compliance and Company Settings](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/08_tenant_regional_settings.png)
 
 ---
 
@@ -24,8 +24,8 @@ As the company **Administrator**, you have the master keys to Mansion. You confi
 Follow this quick setup list to get your company ready in less than 10 minutes:
 
 ### 1. Set Your Legal Company Identity
-- Click your **Initials Badge** (top right) → **Super Admin: Tenant Console → Regional Compliance & Currency Settings**.
-- Enter your **Tenant Legal Display Name** (e.g., *SR Construction Group Ltd*). This name appears on all client invoices and official payment certificates.
+- Click your **Initials Badge** (top right) → **Company Settings → Regional Compliance & Currency**.
+- Enter your **Company Legal Name** (e.g., *SR Construction Group Ltd*). This name appears on all client invoices and official payment certificates.
 
 ### 2. Enter Your Official Tax Registration
 - Enter your country's legal tax identification number:

@@ -18,8 +18,8 @@ Accessing Mansion is fast, secure, and works seamlessly whether you are on a lap
    - **Password**: Enter your temporary or permanent password.
 4. **Access your dashboard**: Click **Sign In**. Once authenticated, you will immediately land on the **Executive Dashboard** tailored with your assigned permissions.
 
-:::note Automatic Company Isolation
-Because Mansion uses strict multi-tenant isolation, signing in automatically locks your session to your company's data. You will only ever see projects, contracts, invoices, and teammates belonging to your organization.
+:::note Organization Privacy
+Signing in securely connects you to your company's workspace. You will only see projects, contracts, invoices, and teammates belonging to your organization.
 :::
 
 ---

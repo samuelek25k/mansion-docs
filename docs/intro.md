@@ -50,7 +50,7 @@ Everyone in your company has a specific role in Mansion, meaning you only see th
 
 | If you are a... | What you do most | Recommended Guide |
 | :--- | :--- | :--- |
-| **Company Owner / Administrator** | Set up company settings, manage team permissions, approve change orders and review financial health | [Administrator Guide](./administration/tenant-setup.md) |
+| **Administrator** | Configure company settings, manage team permissions, approve change orders and review financial health | [Administrator Guide](./administration/tenant-setup.md) |
 | **Project Manager / Site Superintendent** | Track site diaries, coordinate subcontracts, request change orders, and monitor budget spend | [Manager Guide](./roles/manager.md) |
 | **Accountant / Commercial Officer** | Generate milestone invoices, certify trade payment claims, and track retention escrow | [Accountant Guide](./roles/accountant.md) |
 | **Auditor / Compliance Inspector** | Review read-only transaction ledgers, verify contracts, and check tax records | [Auditor Guide](./roles/auditor.md) |
