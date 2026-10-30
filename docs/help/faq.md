@@ -25,4 +25,4 @@ Those set by your administrator's regional preset. See [regional settings](../ad
 
 ## Who do I contact for help?
 
-Start with your organization's administrator.
+Start with your organization's administrator. For anything else, see [contact](./contact.md).

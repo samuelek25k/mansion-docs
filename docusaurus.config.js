@@ -40,6 +40,10 @@ module.exports = {
         { to: 'pathname:///mansion-docs/', label: 'Overview', position: 'right', target: '_self' },
       ],
     },
-    footer: { style: 'dark', copyright: 'Mansion' },
+    footer: {
+      style: 'dark',
+      links: [{ title: 'Help', items: [{ label: 'Contact', to: '/docs/help/contact/' }] }],
+      copyright: 'Mansion',
+    },
   },
 };
