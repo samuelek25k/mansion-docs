@@ -7,7 +7,7 @@ For project managers and site foremen who run day-to-day work on site.
 
 ## Your daily routine
 
-1. **Record the day.** Open **Site Operations → Daily Field Diary** and log labour headcount, concrete slump tests, temperature and any delay causes.
+1. **Record the day.** Open **Site Operations → Daily Field Diary** and log labour headcount, weather, temperature, work performed, and any site delays.
 2. **Take attendance.** Mark who worked, using the bulk attendance entry for your site's labour.
 3. **Plan ahead.** Add or update milestones and activities in **Site Schedule**.
 4. **Issue and move materials.** Use **Material Stock Movements** to transfer stock between sites or issue it to a site.

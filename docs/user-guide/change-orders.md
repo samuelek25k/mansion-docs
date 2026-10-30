@@ -41,26 +41,21 @@ The table provides clear, at-a-glance visibility into all requested modification
 | Column | What It Means | Why It Matters |
 | :--- | :--- | :--- |
 | **Reference / Code** | Unique identifier (e.g., `CO-2026-001`). | Quoted on all client correspondence, emails, and legal invoices. |
-| **Project** | The job site where the variation occurred. | Automatically associates the cost with that project's budget ceiling. |
-| **Title & Description** | Summary of the variation (e.g. *Subterranean parking de-watering & waterproofing reinforcement*). | Proves exactly what work was requested and why. |
-| **Cost Impact** | The monetary addition or reduction (e.g., `+₹1,25,000`). | Shows the exact additional amount the client will be billed. |
-| **Schedule Delay** | The timeline adjustment (e.g., `+14 Days`). | Automatically extends the contractual completion deadline so the contractor is protected from late penalties (liquidated damages). |
-| **Status Badge** | `PENDING_CLIENT_APPROVAL`, `APPROVED`, or `REJECTED`. | Informs site teams whether they have permission to start working on the change. |
+| **Project** | The job site where the variation occurred. | Links the variation directly to the affected job site. |
+| **Title & Description** | Summary of the variation (e.g. *Basement Waterproofing Upgrade to Polyurethane Coating*). | Proves exactly what work was requested and why. |
+| **Requested By** | Person or client representative who requested the variation. | Provides clear accountability for the origin of the change. |
+| **Cost Impact** | The monetary addition or reduction (e.g., `+₹1,85,000`). | Aggregated into total approved variations and client billing. |
+| **Schedule Delay** | The timeline adjustment in days (e.g., `+4 Days`). | Documents the verified delay impact to protect against delay penalties. |
+| **Status Badge** | `submitted` (Amber), `approved` (Green), or `rejected` (Red). | Informs site teams whether they have permission to proceed with the change. |
 
 ---
 
-## The Change Order Workflow (Step-by-Step)
+## Change Order Workflow
 
-![Change Order Register Workflow](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/02_change_orders.png)
-
-| Phase | Actor | Action | What Happens Next |
+| Phase | Actor | Action | Execution in Mansion |
 | :---: | :--- | :--- | :--- |
-| **1** | **Client** | Requests scope change or addition on site | Site Manager calculates cost impact & schedule delay. |
-| **2** | **Site Manager** | Submits Change Order in Mansion (Status: `PENDING`) | Formal variation slip prepared for sign-off. |
-| **3** | **Company Admin & Client** | Review and sign off variation agreement | Mutual written agreement is confirmed. |
-| **4** | **System Automation** | Admin clicks **Approve Change Order** | Mansion automatically increases Project Budget & extends End Date. |
-
-1. **Submit Request**: The Site Manager opens **Site Operations → Change Orders**, clicks **+ Request Change Order**, and enters the requested work, extra cost, and days required.
-2. **Review & Sign-off**: The Administrator and Client review the impact.
-3. **Approval**: When the Administrator clicks **Approve**, Mansion automatically updates the project's **Budget Ceiling** and extends the **Completion Handover Date**.
+| **1. Identify** | Client / Site Manager | Extra work or specification change arises on site | Site Manager calculates the cost impact and schedule delay days. |
+| **2. Submit** | Site Manager / Admin | Clicks **+ Request Change Order** | Enters project, title, description, cost impact, and delay days. Status is set to `submitted`. |
+| **3. Review** | Administrator | Assesses cost and timeline implications | Evaluates against overall portfolio margin and site delivery targets. |
+| **4. Sign-Off** | Administrator | Clicks **Approve** or **Reject** | Status updates with an audit timestamp; approved values reflect in the Total Approved Variations register. |
 

@@ -12,14 +12,14 @@ Whether you are wearing safety boots on the job site logging worker headcounts o
 
 ---
 
-## What Mansion Does (In Plain English)
+## Platform Overview
 
-Construction projects usually struggle with three common challenges:
-1. **Losing track of extra work**: Changes happen on site daily, but if they aren't written down and approved, the builder ends up paying for them out of pocket.
-2. **Cash flow blind spots**: Knowing whether you have spent more money than the client has paid you, and tracking how much security money (retainage) is being held back.
-3. **Disconnected site records**: Paper diaries and chat group messages get lost when disputes arise about weather delays or concrete quality.
+Construction projects typically face three operational challenges:
+1. **Unrecorded variations**: Site changes happen daily; without formal sign-off, contractors absorb the costs out of pocket.
+2. **Financing blind spots**: Delayed client payments and held retainage create hidden cash flow strains.
+3. **Disjointed site logs**: Fragmented paperwork makes defending weather or subcontractor delay claims difficult.
 
-Mansion solves these challenges with three core pillars:
+Mansion unifies site operations and financial control into three pillars:
 
 ![Mansion Platform Architecture](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/01_executive_dashboard.png)
 
@@ -29,18 +29,18 @@ Mansion solves these challenges with three core pillars:
 
 ---
 
-## Key Terms Explained for Laymen
+## Essential Construction & Financial Terms
 
-If you are new to commercial construction or accounting, here is a quick cheat sheet for terms used across this guide:
+Key terms used throughout the platform:
 
-| Term | What it Means in Everyday Terms | Why It Matters |
+| Term | Definition | Practical Application |
 | :--- | :--- | :--- |
-| **Retainage (or Retention)** | A small percentage (typically 5% to 10%) held back from payment until the building is finished and defect-free. | Protects the client against poor workmanship; ensures subcontractors return to fix any defects during the warranty period. |
-| **Change Order (Variation)** | A formal written agreement to alter the original project plan, price, or deadline. | Prevents "scope creep." Ensures builders get paid for extra work and get extra time if the client changes their mind. |
-| **Site Diary (Daily Log)** | A daily record of weather conditions, worker headcount, work completed, and delays. | An ironclad legal log that proves why delays happened (e.g. rainstorms or material shortages). |
-| **IPC (Interim Payment Certificate)** | An official bill or progress claim submitted periodically for work actually finished on site. | Replaces guessing with verified milestone billing. |
-| **Financing Gap** | The difference between what the builder has spent on materials/labour and what the client has paid so far. | Alerts managers when the company is advancing too much of its own cash before client invoices clear. |
-| **Defect Liability Period (DLP)** | The warranty period (usually 6 to 12 months) after building completion. | Retained money is held in escrow until this period ends and all defects are resolved. |
+| **Retainage (Retention)** | A percentage (typically 5%–10%) withheld from progress payments until practical completion and defect clearance. | Protects the project owner against workmanship flaws; ensures subcontractors resolve snag-list defects during warranty. |
+| **Change Order (Variation)** | A formal agreement documenting modifications to original scope, pricing, or completion timeline. | Prevents scope creep. Authorizes payment for extra work and adjusts contractual completion dates. |
+| **Site Diary (Daily Log)** | A contemporaneous daily log recording weather, workforce headcounts, work completed, and site interruptions. | Legal record defending against liquidated damages or disputed delay claims. |
+| **IPC (Interim Payment Certificate)** | A certified progress claim confirming the physical value of work delivered during a billing cycle. | Replaces estimate guessing with inspected milestone certification. |
+| **Financing Gap** | The difference between incurred actual costs and cleared client milestone revenues (`actualCost - collectedRevenue`). | Alerts managers when company cash reserves are self-funding site operations before client receipts clear. |
+| **Defect Liability Period (DLP)** | The contractual warranty period (typically 6–12 months) following project handover. | Retention funds remain in escrow until this period concludes and final defect clearance certificates are issued. |
 
 ---
 

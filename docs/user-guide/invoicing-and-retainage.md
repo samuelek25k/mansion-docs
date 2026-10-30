@@ -42,26 +42,23 @@ Mansion automatically:
 
 ## Anatomy of the Invoicing Register
 
-| Column | What It Means | Why It Matters |
+| Column / Field | Description | Purpose |
 | :--- | :--- | :--- |
-| **Invoice #** | Official sequential reference (e.g., `INV-2026-001`). | Compliant with regional tax standards (India GSTIN, UAE FTA VAT, US AIA). |
-| **Project & Client** | The project site and customer billed. | Matches customer accounts in your accounting ledger. |
-| **Milestone Target** | The physical deliverable achieved (e.g., *Foundation Pours & Substructure Casting*). | Proves to the client that the milestone was verified on site before billing. |
-| **Gross Amount** | Total milestone value before tax and retention. | Base contractual value. |
-| **Retainage Deducted** | The 5% or 10% statutory retention held in escrow. | Tracked automatically in the company retainage pool. |
-| **Net Payable** | Gross Amount minus Retainage plus Tax. | The exact amount expected into your bank account. |
-| **Status Badge** | `PAID` (Green), `PARTIAL` (Blue), `PENDING` (Yellow), or `OVERDUE` (Red). | Highlights which clients need payment reminders. |
+| **Invoice #** | Sequential milestone reference (e.g., `INV-2026-001`). | Compliant with regional tax standards (India GSTIN, UAE FTA TRN, US EIN). |
+| **Project & Client** | Active site and client organization billed. | Associates the progress billing directly with project milestones. |
+| **Milestone Target** | Physical deliverable achieved (e.g., *Foundation Pours & Substructure Casting*). | Confirms the physical work completed before revenue recognition. |
+| **Total Amount** | Total milestone billing amount including regional tax and retainage. | Gross billing commitment. |
+| **Collected Amount** | Funds actually cleared into the bank account to date. | Used directly in dashboard Cash Gap calculations. |
+| **Pending Due** | Uncollected balance remaining on the invoice. | Highlights accounts receivable requiring collection follow-up. |
+| **Status Badge** | `paid` (Green), `partial` (Blue), `pending` (Yellow), or `overdue` (Red). | Immediate visual indicator of invoice collection state. |
+| **⚡ Pay Online** | Integrated payment gateway checkout button. | Enables instantaneous online client settlements for open balances. |
 
 ---
 
-## How to Create and Send a Milestone Invoice
+## Reviewing Invoices & Online Payments
 
 1. Open **Financials → Milestone Invoices & Retainage**.
-2. Click **+ Create Milestone Invoice**.
-3. Select the **Project** and select which milestone deliverable has been achieved.
-4. Enter the billing amount. Mansion automatically calculates:
-   - Regional Tax (e.g. 18% GST CGST/SGST or 5% VAT)
-   - Retainage deduction (e.g. 5% or 10%)
-   - Final Net Due
-5. Click **Issue Invoice**. You can print an official PDF or generate an online payment link.
+2. Review active invoices, payment dates, and balances due.
+3. For outstanding balances, click **⚡ Pay Online** to open the integrated checkout gateway session.
+4. When payments settle, the invoice status and dashboard collected revenue figures update automatically.
 

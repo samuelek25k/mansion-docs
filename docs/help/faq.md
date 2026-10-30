@@ -5,7 +5,7 @@ title: Frequently Asked Questions
 
 # Frequently Asked Questions (FAQ)
 
-Quick, plain-English answers to the most common questions about using Mansion on job sites and in the office.
+Answers to common questions about using Mansion in the field and office.
 
 ---
 
@@ -32,7 +32,7 @@ Retainage is a statutory security deposit (usually 5% or 10%) withheld from prog
 - **Deficit**: You have spent more out-of-pocket cash than you have received from the client. When you see a deficit alert, immediately issue your next milestone invoice. See [Executive Dashboard](../user-guide/dashboard.md).
 
 #### How do change orders affect our project budget?
-When an Administrator approves a [Change Order](../user-guide/change-orders.md), Mansion automatically increases the project's **Budget Ceiling** and extends the **Completion Handover Date**. This ensures the team gets paid for extra work and prevents late-delivery penalties.
+When an Administrator approves a [Change Order](../user-guide/change-orders.md), the variation value is officially added to the portfolio's **Total Approved Variations** register with an audit timestamp. This provides the verified record required for billing milestone adjustments and defending schedule changes.
 
 ---
 

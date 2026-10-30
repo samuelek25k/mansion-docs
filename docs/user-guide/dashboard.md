@@ -22,29 +22,30 @@ The **Executive Dashboard** gives your team a real-time pulse on all active buil
 
 ---
 
-## Dashboard Key Metrics Explained for Laymen
+## Key Financial & Portfolio Metrics
 
-Here is what each section of the dashboard tells you:
+Here is what each section of the dashboard tracks:
 
 ### 1. Portfolio Health Radar (0–100 Index)
-- **What it shows**: A single composite score (like a credit score for your projects) evaluating whether your projects are healthy, on schedule, and profitable.
-- **How to read it**:
-  - **90–100 (Optimal - Green)**: Projects are maintaining healthy profit margins (e.g. +25%), billing is ahead of expenses, and no major unapproved delays exist.
-  - **70–89 (Stable - Blue)**: Minor cost variations or slight milestone billing delays, but within safe tolerance.
-  - **Below 70 (Warning - Red)**: Expenses are catching up to client revenue, or projects are consuming budget too fast.
+- **What it shows**: A calculated health score tracking portfolio margin strength and cash financing position.
+- **Scoring Logic**: Starts at baseline 70; gains points for strong net profit margins (>20%) and cash surpluses (client collections exceeding incurred costs); penalizes portfolios running at a loss or in cash deficit.
+- **Status Tones**:
+  - **Optimal (Score 80–100, Green)**: Healthy net margins (+25%+) and positive cash flow where client collections cover incurred costs.
+  - **Moderate Watch (Score 50–79, Amber)**: Stable margins, but requiring attention to collection timing or upcoming expenditures.
+  - **Deficit / At Risk (Score < 50 or Negative Margin, Rose)**: Actual incurred costs exceed collected revenues, or the portfolio is operating at a net loss.
 
 ### 2. Financing Exposure (The "Cash Gap")
-- **What it is in plain English**: The difference between how much money the builder has spent out of pocket on materials, equipment, and wages versus how much actual cash the client has paid so far.
-- **Why it matters**: Construction companies can go bankrupt even when profitable if they run out of daily cash waiting for clients to pay.
+- **Formula**: `Total Actual Incurred Cost - Total Collected Revenue`.
+- **Why it matters**: Alerts leadership when company working capital is tied up in job sites before client receipts clear.
 - **Reading the status**:
-  - **Surplus (Green)**: The client has paid advances that cover current incurred site expenses. Your company is safe.
-  - **Deficit / Exposure (Orange/Red)**: Your company has spent more cash than it has collected. The dashboard prompts you to issue milestone invoices immediately.
+  - **Surplus (Green)**: Collected revenue exceeds incurred costs (`gap <= 0`). Client advances and progress receipts comfortably fund site operations.
+  - **Deficit (Rose/Orange)**: Incurred costs exceed collected revenue (`gap > 0`). The company is self-financing site operations and needs to accelerate invoice collections.
 
 ### 3. Revenue Billed vs Target Contract Value
-- **What it shows**: How much of the total contracted project value has been officially invoiced to date (e.g. 38% billed out of ₹73,00,000).
+- **What it shows**: Aggregate milestone revenue invoiced across all active projects against the total contractual target.
 
 ### 4. Budget Watchdog
-- **What it is**: An automated alert system that flags any building project that has consumed a large portion of its allocated budget before hitting expected completion milestones.
+- **What it is**: Identifies the project with the highest budget utilization ratio (`actualCost / estimatedBudget`) to prevent cost overruns before milestone sign-offs.
 
 ---
 

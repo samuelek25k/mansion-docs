@@ -27,24 +27,39 @@ Each card in the directory represents an active or scheduled job site:
 
 | Element | Description | Why It Matters |
 | :--- | :--- | :--- |
-| **Status Badge** | `Under Active Construction` (Green) or `Planned / Tender` (Grey). | Tells your site foremen and accountants which projects are actively incurring costs. |
+| **Status Badge** | `In Progress` (Green), `Planned` (Slate), `On Hold` (Amber), or `Completed` (Blue). | Tells your site foremen and accountants which projects are actively incurring costs versus pending mobilization. |
 | **Client Name** | The customer or property developer who contracted the work (e.g., Metro Infrastructure Corp). | Links all customer milestone invoices and contracts to this specific entity. |
 | **Budget Ceiling** | The hard total contract budget (e.g., ₹45,00,000). | Acts as the budget ceiling. If site expenses approach this number, alerts trigger automatically. |
-| **Timeline Dates** | Planned start date and completion handover date. | Used across the Site Schedule to calculate whether the project is running ahead or behind schedule. |
+| **Timeline Dates** | Planned mobilization start date and target completion handover date. | Used across the Site Schedule to calculate whether the project is running ahead or behind schedule. |
 
 ---
 
 ## The Financial Breakdown Drawer
 
-Clicking on any project card slides out a **Financial Breakdown Drawer** from the right side of the screen. This provides instant visibility into:
+Clicking on any project card slides out a **Financial Breakdown Drawer** from the right side of the screen.
 
-1. **Direct Material Incurred**: Total cost of physical materials issued to the site (cement bags, steel rebar, electrical conduit, sand).
-2. **Trade & Subcontractor Labour**: Total wages logged through the daily muster roll and certified subcontractor claims.
-3. **Equipment & Plant Hire**: Incurred rental charges for cranes, excavators, and generators.
-4. **Billed Revenue vs Unbilled Work**: How much work has been invoiced to the client versus completed work pending billing.
-5. **Net Margin Velocity**: Current profit margin percentage for this specific site.
+### Top Snapshot KPIs
+- **Est. Budget**: Baseline contract ceiling.
+- **Incurred Cost**: Total actual spend to date and percentage of allocated budget consumed.
+- **Revenue Collected**: Collected cash receipts alongside total milestone revenue billed.
+- **Cost Variance**: Immediate status indicator (`+` under budget in green, or `-` over budget in red).
+- **Net Projected Margin %**: Profit margin percentage calculated for this project.
 
-:::tip Layman Tip: Catching Leaks Early
+### The 4 Detailed Sub-Tabs
+1. **Budget Breakdown**:
+   - **Materials Allocation**: Tracked against the baseline estimate (typically ~55% of contract budget).
+   - **Labour & Subcontractors**: Wages and trade packages tracked against estimate (typically ~30% of contract budget).
+   - **Fixed & Site Overheads**: Equipment, utilities, and general site conditions (typically ~15% of contract budget).
+   - **Line Items Table**: Granular work breakdown with item specifications, category, unit rate, estimated vs actual quantity, and resulting variance.
+2. **Invoices & Revenue**:
+   - Master list of milestone invoices with Invoice #, milestone name, issue date, total amount, paid amount, and outstanding balance due.
+   - Live **Collection Efficiency %** indicator.
+3. **Cash Transactions**:
+   - Project cash ledger showing direct bank/cash flows (`accountFrom` &rarr; `accountTo`), date, category, remarks, and debits/credits.
+4. **Site Stock Issues**:
+   - Audit trail of warehouse and inventory materials issued to the job site, with item names, quantities, unit costs, total valuations, and batch/reference document tags.
+
+:::tip Proactive Cost Control
 By checking the Financial Drawer once a week, managers can spot whether material costs are exceeding initial estimates before the project finishes, allowing immediate course correction.
 :::
 
@@ -55,10 +70,12 @@ By checking the Financial Drawer once a week, managers can spot whether material
 1. Open **Site Operations → Projects Directory**.
 2. Click the blue **+ Create New Project** button at the top right.
 3. Fill in the essential details:
-   - **Project Title**: Enter a clear, descriptive name (e.g. *Downtown Commercial Plaza*).
-   - **Customer**: Select an existing customer from the dropdown (or add one via Master Data).
-   - **Estimated Budget Ceiling**: Enter the agreed total contract value.
-   - **Start & End Dates**: Set the official site possession date and scheduled completion date.
-   - **Description**: Add key architectural or structural specifications (e.g., *12-storey commercial tower with subterranean parking*).
-4. Click **Save Project**. The project is immediately live and ready for site diaries, subcontracts, and change orders.
+   - **Project Title**: Enter a clear, descriptive name (e.g. *Skyline Residency Tower A*).
+   - **Client / Customer**: Select an existing customer from the dropdown (or leave unassigned).
+   - **Status**: Choose initial lifecycle state (`Planned`, `In Progress`, `On Hold`, `Completed`).
+   - **Mobilization / Start Date**: The official site possession date.
+   - **Target Completion Date**: Scheduled handover date.
+   - **Total Estimated Budget**: Enter the agreed total contract value in your workspace currency.
+   - **Scope of Work & Site Description**: Add architectural specifications, subcontractor milestones, and deliverables.
+4. Click **Create Project**. The project is immediately live and ready for site diaries, subcontracts, and change orders.
 

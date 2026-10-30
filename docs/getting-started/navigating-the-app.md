@@ -51,8 +51,6 @@ The interface is structured into **4 Core Sections**, each containing dedicated 
 ### On Desktop & Tablets
 On wider screens, the top navigation bar displays the 4 main sections. Selecting any section immediately reveals its sub-tabs directly underneath.
 
-![Executive Navigation](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/01_executive_dashboard.png)
-
 ### On Mobile Phones (Field-First Ergonomics)
 When opening Mansion on a smartphone at the job site:
 - A persistent **Bottom Navigation Dock** provides one-thumb switching between the 4 sections.

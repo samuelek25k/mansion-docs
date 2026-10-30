@@ -37,40 +37,33 @@ In construction, memories fade and people disagree. If a client later claims: *"
 
 ## Key Sections in Every Daily Log
 
-### 1. Weather & Environmental Conditions
-- **What it tracks**: Temperature (°C/°F), humidity, wind, and sky conditions (e.g., *Clear Sky, 34°C* or *Heavy Rain, High Winds*).
-- **Why it matters**: Severe heat prevents concrete from curing properly without special admixtures; heavy rain halts exterior plastering and deep excavation.
+The Daily Site Diary captures essential field data across structured parameters and contemporaneous narrative logs:
 
-### 2. Trade Headcount Breakdown
-- **What it tracks**: Exactly how many workers were on site, categorized by skill trade:
-  - **Masons**: Brickwork and block laying.
-  - **Bar Benders / Steel Fixers**: Tying reinforcement rebar cages for slabs and columns.
-  - **Carpenters / Formwork Crew**: Erecting wooden and aluminum shuttering molds.
-  - **Electricians & MEP Technicians**: Running conduit and piping.
-  - **General Helpers**: Material handling and site cleanup.
-- **Why it matters**: Verifies daily wage invoices from labour subcontractors so you never pay for "ghost workers."
+### 1. Weather & Temperature
+- **Fields**: Log date, weather description (e.g., *Sunny / Clear*, *Partly Cloudy*), and site temperature (°C).
+- **Why it matters**: Severe heat or heavy rain impacts concrete curing and halts external plastering or excavation.
 
-### 3. Concrete Slump Test & Quality Checks
-- **What is a Slump Test in plain English?**
-  Before a truckload of ready-mix wet concrete is poured into your building's columns or beams, a cone-shaped mold is filled with concrete and lifted off. Engineers measure how many millimeters the wet concrete "slumps" (sinks down).
-- **Why it matters**:
-  - If concrete slumps too much, there is too much water, which causes the concrete to weaken and crack once dry.
-  - If it slumps too little, it is too stiff to flow around rebar steel, creating dangerous hollow voids (honeycombing).
-  - Mansion logs the exact slump value (e.g., `110mm slump - Passed`) and the laboratory batch number.
+### 2. Active Labour Headcount
+- **Fields**: Single headcount integer representing total workers present on the site today.
+- **Top Metric**: The dashboard aggregates **Total Site Headcount Today** across all active job sites for instantaneous management oversight.
 
-### 4. Site Delays & Incident Documentation
-- Logs the exact cause of any work stoppage (e.g. *Crane mechanical fault*, *Material delivery delayed by supplier*, *Client architect requested revised drawing*).
-- Records the hours lost and trades affected.
+### 3. Work Performed & Quality Notes
+- **Field**: Multi-line narrative recording daily milestone progress.
+- **Typical entries**: Detail active trades, structural pours, formwork progress, and quality checks (such as concrete slump test samples dispatched for laboratory cube verification).
+
+### 4. Issues & Delays
+- **Field**: Dedicated text log for site bottlenecks.
+- **Typical entries**: Records crane power dips, delayed material deliveries (such as sand aggregate held in highway traffic), or inspection waiting times.
 
 ---
 
 ## How to Submit Today's Diary Entry (Step-by-Step)
 
 1. Open **Site Operations → Daily Field Diary**.
-2. Click **+ Log Today's Entry** (or select the project from the top dropdown).
-3. Confirm the automatically detected weather, or manually note rain conditions.
-4. Enter the worker headcount for each trade crew currently on site.
-5. Record any concrete pours, slump measurements, or material deliveries received.
-6. Note any delays in the **Site Notes** text area.
-7. Click **Save Diary Entry**. The entry is saved with your user signature.
+2. Click **+ Log Today's Entry** (or filter by project using the dropdown).
+3. Confirm the date, weather, and ambient site temperature (°C).
+4. Enter the **Total Labour Headcount** present on site.
+5. In **Work Performed**, describe completed tasks, active structural areas, and any quality tests performed.
+6. In **Issues / Delays**, document any site interruptions or safety observations.
+7. Click **Save Diary Entry**. The entry is saved with your supervisor name and timestamp.
 

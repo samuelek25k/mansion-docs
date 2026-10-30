@@ -26,54 +26,40 @@ The **Subcontracts & Subleasing** module brings these commitments into a single 
 
 ---
 
-## Key Metrics at the Top of the Screen
+## Key Module Metrics
 
-| Metric Card | What it Means for Laymen |
+| Metric Card | Description |
 | :--- | :--- |
-| **Total Committed Value** | The total contract value agreed across all signed subcontracts and rental agreements (e.g., ₹7,23,500). |
-| **Certified to Date** | The cumulative amount of work verified and approved for payment so far (e.g., ₹2,02,000 / 28% delivered). |
-| **Retention Withheld** | The total security money (e.g., 5% or 10%) held in escrow until the Defect Liability Period ends. |
-| **Active Machinery Leases** | Count of heavy plant machines (cranes, earthmovers, piling rigs) currently rented and accruing hire rates on your sites. |
+| **Total Committed Value** | Total contract value across all signed trade subcontracts and rental agreements. |
+| **Certified to Date** | Cumulative value of completed work verified and approved for payment. |
+| **Retention Withheld** | Security funds held in escrow (e.g., 5% or 10%) pending Defect Liability Period clearance. |
+| **Active Machinery Leases** | Count of heavy plant machines (cranes, earthmovers, piling rigs) currently active on site. |
 
 ---
 
-## The Two Types of Agreements
+## Agreement Types
 
-Mansion separates external agreements into two distinct categories:
+Mansion organizes external commitments into two streams:
 
 ### 1. 🔨 Trade Subcontracts
-- **What they are**: Fixed-scope contracts awarded to specialized trade companies (e.g., HVAC ducting, curtain-wall glazing, electrical wiring, structural waterproofing).
-- **Key details tracked**:
-  - **Committed Package Value**: The agreed contract price.
-  - **Certified Work**: Milestone claims inspected and approved by the site engineer.
-  - **Retention Withholding**: Automatic deduction (typically 5% or 10%) kept as insurance against future defects.
-  - **Unbilled Remaining**: Contract balance left to be performed.
+- **Scope**: Fixed-price or unit-rate packages awarded to specialist contractors (HVAC, glazing, electrical, waterproofing).
+- **Tracked Parameters**: Committed package value, certified progress, statutory retention withholdings, and unbilled balances.
 
 ### 2. 🚜 Equipment Subleasing (Heavy Plant Rental)
-- **What it is**: Renting heavy equipment when purchasing machines outright would be too expensive (e.g. *60-Meter Top-Slewing Tower Crane*, *CAT 320 Hydraulic Excavator*).
-- **Rental rate options**:
-  - **Monthly Lease**: Standard flat rate per calendar month (e.g., ₹8,000/month).
-  - **Hourly Meter / Wet Lease**: Billed based on machine operating hours recorded on site, including certified operators and fuel.
-  - **Mobilization & Demobilization Fees**: One-time transport and installation fees for bringing the equipment to site and removing it.
+- **Scope**: Rented machinery and plant (tower cranes, excavators, piling rigs).
+- **Lease Models**: Monthly fixed leases, hourly wet leases (metered operation with operator/fuel), and mobilization/demobilization freight charges.
 
 ---
 
-## How Interim Payment Certificates (IPC Claims) Work
+## Interim Payment Certificate (IPC) Workflow
 
-Instead of subcontractors sending informal invoices, Mansion standardizes payments using **Interim Payment Certificates (IPC)**:
+Subcontractor progress claims follow a structured verification lifecycle:
 
-![IPC Claim and Retention Lifecycle](https://cdn.jsdelivr.net/gh/samuelek25k/mansion-docs@main/screenshots/07_contracts_subleasing.png)
-
-| Step | Milestone Action | What Happens in Mansion |
+| Step | Action | Execution in Mansion |
 | :---: | :--- | :--- |
-| **1. Deliver** | Subcontractor completes trade phase | Work is inspected by the Site Engineer on the job site. |
-| **2. Submit** | Engineer clicks **+ IPC Claim** | Enters verified quantity completed (e.g. 200m piping). |
-| **3. Retain** | Automated Retainage Calculation | Mansion automatically deducts statutory 5%–10% retention into escrow. |
-| **4. Certify** | Commercial Finance / Admin Approval | Accountant certifies net payable amount and issues payment certificate. |
-
-1. **Submit Claim**: Click **+ IPC Claim** next to any active contract.
-2. **Record Work Completed**: Enter the milestone percentage achieved or volume installed (e.g., 200 meters of piping).
-3. **Automatic Retention**: Mansion automatically calculates and deducts the statutory retention percentage, crediting it to the company's retention escrow ledger.
-4. **Contra-Charges / Backcharges**: If the subcontractor damaged site property or used contractor supplies (like electricity or diesel), deduct it directly as a contra-charge before certifying.
-5. **Certification**: Once certified, the voucher flows directly into the [Invoices & Retainage](./invoicing-and-retainage.md) ledger for payment.
+| **1. Deliver** | Subcontractor completes trade milestone | Inspected on site by the Site Engineer. |
+| **2. Submit** | Engineer clicks **+ IPC Claim** | Enters verified quantity completed (e.g., 200m piping). |
+| **3. Retain** | Automated Retainage Calculation | System automatically calculates and deducts statutory retention (5%–10%) into escrow. |
+| **4. Contra-Charge** | Deduct backcharges (optional) | Applies deductions for contractor diesel, materials, or damages before net certification. |
+| **5. Certify** | Commercial Finance / Admin Approval | Accountant certifies net payable amount; certificate routes to the payment register. |
 
