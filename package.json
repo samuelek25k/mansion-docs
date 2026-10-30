@@ -1,0 +1,21 @@
+{
+  "name": "mansion-docs",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "docs:version": "docusaurus docs:version"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
+    "@mdx-js/react": "^3.1.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
